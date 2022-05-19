@@ -10,6 +10,7 @@ COPY yarn.lock ./
 
 # RUN npm install -g yarn
 RUN apk add --no-cache nss
+RUN apk add chromium
 # RUN apk update && apk add libnss3
 RUN yarn
 # If you are building your code for production
