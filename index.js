@@ -26,4 +26,4 @@ let {theme,author,title,image} = req.query
 })
 
 
-app.listen(4000,()=>console.log('Listening to port 3000'))
+app.listen(80,()=>console.log('Listening to port 3000'))
